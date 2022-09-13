@@ -4,6 +4,7 @@ const router = express.Router();
 const apiController = require('./controllers/api.controller');
 const usersController = require('./controllers/users.controller');
 
+// ** Index
 router.get('/', apiController.indexRoute);
 
 // ** Users
